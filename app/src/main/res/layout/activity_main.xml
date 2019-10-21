@@ -15,6 +15,20 @@
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"
         android:text="Hello world!" />
+    <TextView
+        android:id="@+id/result_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="Hello world!" />
+    <TextView
+        android:id="@+id/result_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="Hello world!" />
     <Button
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
