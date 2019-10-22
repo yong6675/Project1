@@ -8,26 +8,49 @@
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/dice_image"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/empty_dice"
+        />
+
+    <ImageView
+        android:id="@+id/dice_image1"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/empty_dice"
+        />
+
+    <ImageView
+        android:id="@+id/dice_image2"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/empty_dice"
+        />
     <TextView
         android:id="@+id/result_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
+        android:textSize="0sp"
         android:text="Hello world!" />
     <TextView
         android:id="@+id/result_text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
+        android:textSize="0sp"
         android:text="Hello world!" />
     <TextView
         android:id="@+id/result_text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
+        android:textSize="0sp"
         android:text="Hello world!" />
     <Button
         android:id="@+id/roll_button"
