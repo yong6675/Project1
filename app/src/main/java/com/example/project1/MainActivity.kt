@@ -94,11 +94,8 @@ class MainActivity : AppCompatActivity() {
            var resulttext2 = resultText1.text.toString().toInt()
            var resulttext3 = resultText2.text.toString().toInt()
 
-           /*var resulttext1: Int = resultText.text.toString().toInt()
-           var resulttext2: Int = resultText1.text.toString().toInt()
-           var resulttext3: Int = resultText2.text.toString().toInt()*/
 
-           if (resulttext1 < 6 && resulttext2 < 6 && resulttext3 < 6) {
+           if (resulttext1 < 6 || resulttext2 < 6 || resulttext3 < 6) {
                resulttext1++
                resulttext2++
                resulttext3++
